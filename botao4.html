@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Curso JavaScript</title>
+        <body>
+            <div id="app">
+                <input type="text" name="nome"/>
+                <input type="text" name="nome2"/>
+                <button class="botao">Adicionar</button>
+            </div>
+
+            <script>
+                var inputElement = document.querySelector("div#app input"); // retorna input da div com id = app
+                var inputElement = document.querySelector("input=[name=nome]") // retorna input com name = nome
+                var inputElement = document.querySelector("input") // retorna primeiro input que existir
+                // retorna sempre um único elemento, a não ser que use querySelectorAll
+                console.log(inputElement);
+            </script>
+        </body>
+    </head>
+</html>
